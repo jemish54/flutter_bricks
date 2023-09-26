@@ -11,6 +11,12 @@ bricks:
   full_project:
     path:
       bricks/full_project
+  custom_extensions:
+    path:
+      bricks/custom_extensions
+  services:
+    path:
+      bricks/services
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
   # widget:
