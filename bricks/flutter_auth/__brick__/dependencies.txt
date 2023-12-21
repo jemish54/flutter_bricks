@@ -1,0 +1,16 @@
+MAIN-----------------------------------------
+
+hooks_riverpod: 
+flutter_hooks: 
+go_router: 
+
+freezed_annotation: 
+json_annotation: 
+
+google_fonts:
+
+DEV------------------------------------------
+
+build_runner:
+freezed:
+json_serializable:

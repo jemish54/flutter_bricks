@@ -14,9 +14,9 @@ bricks:
   custom_extensions:
     path:
       bricks/custom_extensions
-  services:
+  flutter_auth:
     path:
-      bricks/services
+      bricks/flutter_auth
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
   # widget:

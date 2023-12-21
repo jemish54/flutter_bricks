@@ -1,4 +1,4 @@
-name: services
+name: flutter_auth
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -26,3 +26,8 @@ environment:
 #  * a list of values (enums only)
 #  * an optional separator (list only)
 vars:
+  name:
+    type: string
+    description: Project Name
+    default: AuthExample
+    prompt: What is your project title?
