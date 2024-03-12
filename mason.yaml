@@ -1,25 +1,9 @@
-# Register bricks which can be consumed via the Mason CLI.
-# Run "mason get" to install all registered bricks.
-# To learn more, visit https://docs.brickhub.dev.
 bricks:
-  # Bricks can be imported via version constraint from a registry.
-  # Uncomment the following line to import the "hello" brick from BrickHub.
-  # hello: 0.1.0+1
   add_feature:
-    path:
-      bricks/add_feature
+    path: bricks/add_feature
   full_project:
-    path:
-      bricks/full_project
+    path: bricks/full_project
   custom_extensions:
-    path:
-      bricks/custom_extensions
+    path: bricks/custom_extensions
   flutter_auth:
-    path:
-      bricks/flutter_auth
-  # Bricks can also be imported via remote git url.
-  # Uncomment the following lines to import the "widget" brick from git.
-  # widget:
-  #   git:
-  #     url: https://github.com/felangel/mason.git
-  #     path: bricks/widget
+    path: bricks/flutter_auth
