@@ -1,9 +1,5 @@
 bricks:
-  add_feature:
-    path: bricks/add_feature
-  full_project:
-    path: bricks/full_project
-  custom_extensions:
-    path: bricks/custom_extensions
   flutter_auth:
     path: bricks/flutter_auth
+  clean_arch_auth:
+    path: bricks/clean_arch_auth
