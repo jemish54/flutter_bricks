@@ -3,3 +3,5 @@ bricks:
     path: bricks/flutter_auth
   clean_arch_auth:
     path: bricks/clean_arch_auth
+  clean_feature:
+    path: bricks/clean_feature
