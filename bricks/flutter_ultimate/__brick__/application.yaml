@@ -1,0 +1,28 @@
+package_rename_config:
+  android:
+    app_name: ExampleApp # (String) The display name of the android app
+    package_name: com.jemish54.example_app # (String) The package name of the android app
+
+  ios:
+    app_name: ExampleApp # (String) The display name of the ios app
+    package_name: com.jemish54.example_app # (String) The product bundle identifier of the ios app
+
+flutter_launcher_icons:
+  image_path: "assets/images/launcher.png"
+  android: true
+  ios: true
+
+flutter_native_splash:
+  color: "#000B25"
+  image: "assets/images/launcher.png"
+
+flutter_gen:
+  # output: lib/gen/ # Optional (default: lib/gen/)
+  # line_length: 80 # Optional (default: 80)
+
+  # # Optional
+  # integrations:
+  #   flutter_svg: true
+  #   flare_flutter: true
+  #   rive: true
+  #   lottie: true
