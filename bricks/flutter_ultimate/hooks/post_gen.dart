@@ -41,22 +41,14 @@ void run(HookContext context) async {
   await runPhase(
     context,
     'dart',
-    [
-      'pub',
-      'add',
-      '${dependencies.join(' ')}',
-    ],
+    ['pub', 'add', ...dependencies],
     'Getting Dependencies',
     'Added Dependencies :\n - ${dependencies.join('\n - ')}',
   );
   await runPhase(
     context,
     'dart',
-    [
-      'pub',
-      'add',
-      '${devDependencies.map((e) => 'dev:$e').join(' ')}',
-    ],
+    ['pub', 'add', ...devDependencies.map((e) => 'dev:$e')],
     'Getting Dev Dependencies',
     'Added Dev Dependencies :\n - ${devDependencies.join('\n - ')}',
   );
